@@ -1,6 +1,6 @@
 # spring-session-data-redis
 
-> 在`springboot`中使用`spring-session-data-redis`实现`http session`共享
+> 在`springboot`中使用`spring-session-data-redis`实现`http session`共享. `spring-session`共享的机制有很多,包括: `JDBC`,`MongoDB`,`Redis`,`Hazelcast`,`HashMap`, 本例用的是`redis`
 
 ## 使用
 
