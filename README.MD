@@ -10,6 +10,19 @@
 2. 创建一个本机可直接连接的`redis`服务
 3. 浏览器
 
+### 启动
+
+* `git clone https://github.com/DongCarzy/springboot-session.git` 下载jar
+* `application.properties` 中配置自己的`redis`服务
+* 启动项目,进行测试
+    * mvn 方式,根目执行`mvn spring-boot:run` 启动项目
+    * 配置 `idea` 启动
+    * 直接run `com.dxp.springsession.SpringSessionApplication.main()` 方法
+
+## 开发
+
+开发过程
+
 ### 引入相关JAR
 
 > 仅仅简单演示,所以这里就只是引入`web`,`redis`,`spring-session`相关的JAR
